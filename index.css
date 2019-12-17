@@ -1,0 +1,105 @@
+/* CSS-Transitions : Use case I : CTA */
+.cta-link {
+  margin: 2rem;
+  height: 2rem;
+  width: 10rem;
+  border: solid black 2px;
+  background-color: green;
+  color: deeppink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition-property: all;
+  transition-duration: 2s;
+  transition-timing-function: initial;
+  transition-delay: initial;
+  /* transition: <property> <duration> <timing-function> <delay>; */
+}
+
+.cta-link:hover {
+  background-color: darkgreen;
+  color: hotpink;
+  width: 11rem;
+  height: 2.5rem;
+  margin-top: 2.2rem;
+}
+
+/*------------------------*/
+/*NAVBAR EXAMPLE*/
+
+ul {
+  padding: 0;
+}
+
+.nav {
+  display: flex;
+  list-style: none;
+  /*the item should only use their own height and stop stretching*/
+  align-items: flex-start;
+}
+
+.nav > li {
+  margin: 0 1rem;
+  position: relative;
+  tab-index: 1;
+}
+
+.nav > li > a {
+  padding: 1rem;
+}
+
+.nav > li > ul {
+  position: absolute;
+  /*2rem, so it is perfectly on the end of the box: 1rem font-size + 1rem padding:*/
+  top: 2rem;
+  padding: 1rem;
+  grid-gap: 1rem;
+  list-style: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s linear 0.2s, visibility 0.2s linear 0.2s;
+  background-color: hsl(0, 0%, 98%);
+  /* opacity is used for the transition */
+  opacity: 0;
+  /* visibility and not display none, cause it is interpolatable with transition  */
+  visibility: hidden;
+}
+
+.nav > li:hover > ul,
+.nav > li:focus-within > ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+body {
+  background-color: hsl(0, 0%, 96%);
+}
+
+/*-------------------------------*/
+/*PERFORMANCE EXAMPLE*/
+.performance-example {
+  width: 20rem;
+  margin-top: 10rem;
+  left: 0;
+  top: 0;
+  position: absolute;
+  transition: all 1s;
+}
+
+.slow-performance-example:hover {
+  top: 8rem;
+  left: 8rem;
+}
+
+.performance-example.bether-performance-example {
+  margin-top: 30rem;
+}
+
+.bether-performance-example:hover {
+  transform: translate(8rem, 8rem);
+}
+
+.img-responsive {
+  max-width: 100%;
+  max-height: 100%;
+}
