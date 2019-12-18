@@ -55,6 +55,21 @@ example
 Only use gpu-accellerated properties (transform + opacity)
 https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/
 
+A11Y
+
+w3 documentation reduced motion + explanation https://www.w3.org/WAI/WCAG21/Techniques/css/C39
+
+a11y-project checklist https://a11yproject.com/checklist/#section-animation
+
+example https://a11y-101.com/development/reduced-motion
+
+should i use anims?
+
+medium blog post über anims:
+https://medium.com/@sophie_paxtonUX/stop-gratuitous-ui-animation-9ece9aa9eb97
+
+material design guideline https://material.io/design/motion/customization.html#customization-options
+
 
 
 allgemein

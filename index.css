@@ -27,6 +27,7 @@ body {
   width: 11rem;
   height: 2.5rem;
   margin-top: 2.2rem;
+  transform: rotate(360deg);
 }
 
 /*------------------------*/

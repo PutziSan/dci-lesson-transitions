@@ -3,6 +3,7 @@
     "start": "browser-sync start --server --files \"*.css\" --files \"*.html\""
   },
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "prettier": "^1.19.1",
+    "browser-sync": "^2.26.7"
   }
 }
