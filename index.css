@@ -1,3 +1,7 @@
+body {
+  background-color: hsl(0, 0%, 96%);
+}
+
 /* CSS-Transitions : Use case I : CTA */
 .cta-link {
   margin: 2rem;
@@ -42,7 +46,6 @@ ul {
 .nav > li {
   margin: 0 1rem;
   position: relative;
-  tab-index: 1;
 }
 
 .nav > li > a {
@@ -54,6 +57,7 @@ ul {
   /*2rem, so it is perfectly on the end of the box: 1rem font-size + 1rem padding:*/
   top: 2rem;
   padding: 1rem;
+  display: grid;
   grid-gap: 1rem;
   list-style: none;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
@@ -69,10 +73,6 @@ ul {
 .nav > li:focus-within > ul {
   opacity: 1;
   visibility: visible;
-}
-
-body {
-  background-color: hsl(0, 0%, 96%);
 }
 
 /*-------------------------------*/
