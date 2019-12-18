@@ -12,6 +12,7 @@ Introduction to the css-`transition`-property.
 
 ## further reading
 
+- [MDN documentation: using CSS transitions](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transitions/Using_CSS_transitions)
 - [Material design guidelines for motion](https://material.io/design/motion) (or animations on the web)
 - [Performance best practice for transitions](https://www.html5rocks.com/en/tutorials/speed/high-performance-animations/) (only use `transform` and `opacity`)
 - (advanced) Talk by Alex Holachek: [Building mobile-first web animations in react](https://www.youtube.com/watch?v=JDDxR1a15Yo&feature=youtu.be&t=10668) (react knowledge not necessarily required)
